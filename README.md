@@ -1,5 +1,5 @@
 <!-- ================= HEADER ================= -->
-<h1 align="center">🚀 GitHub Access Report Service</h1>
+<h1 align="center"> GitHub Access Report Service</h1>
 
 <p align="center">
   <b>Spring Boot API to analyze GitHub organization repository access</b><br>
@@ -16,7 +16,7 @@
 <hr>
 
 <!-- ================= ABOUT ================= -->
-<h2>📌 About the Project</h2>
+<h2> About the Project</h2>
 
 <p>
 This project is a <b>Spring Boot REST API</b> that fetches data from GitHub and generates an 
@@ -25,16 +25,16 @@ within a GitHub organization.
 </p>
 
 <ul>
-  <li>🔍 Fetch repositories from organization</li>
-  <li>👥 Identify collaborators</li>
-  <li>🔐 Extract access levels (admin, write, read)</li>
-  <li>📊 Generate structured JSON report</li>
+  <li> Fetch repositories from organization</li>
+  <li> Identify collaborators</li>
+  <li> Extract access levels (admin, write, read)</li>
+  <li> Generate structured JSON report</li>
 </ul>
 
 <hr>
 
 <!-- ================= RUN ================= -->
-<h2>▶️ How to Run the Project</h2>
+<h2> How to Run the Project</h2>
 
 <pre>
 # Clone repository
@@ -54,7 +54,7 @@ mvn spring-boot:run
 <hr>
 
 <!-- ================= AUTH ================= -->
-<h2>🔐 Authentication Configuration</h2>
+<h2> Authentication Configuration</h2>
 
 <p>
 This project uses <b>GitHub Personal Access Token (PAT)</b> for authentication.
@@ -113,7 +113,7 @@ http://localhost:8081/api/access-report
 <hr>
 
 <!-- ================= DESIGN ================= -->
-<h2>⚙️ Assumptions & Design Decisions</h2>
+<h2> Assumptions & Design Decisions</h2>
 
 <ul>
   <li>Only organization repositories are considered</li>
@@ -126,7 +126,7 @@ http://localhost:8081/api/access-report
 <hr>
 
 <!-- ================= STRUCTURE ================= -->
-<h2>📂 Project Structure</h2>
+<h2 Project Structure</h2>
 
 <pre>
 src/
@@ -139,23 +139,22 @@ src/
 <hr>
 
 <!-- ================= FUTURE ================= -->
-<h2>🚀 Future Improvements</h2>
+<h2> Future Improvements</h2>
 
 <ul>
-  <li>🔄 Add caching (Redis)</li>
-  <li>📊 Add frontend dashboard</li>
-  <li>🔐 Secure API with JWT</li>
-  <li>⚡ Handle GitHub rate limiting</li>
+  <li> Add caching (Redis)</li>
+  <li> Add frontend dashboard</li>
+  <li> Secure API with JWT</li>
+  <li> Handle GitHub rate limiting</li>
 </ul>
 
 <hr>
 
 <!-- ================= AUTHOR ================= -->
-<h2>👨‍💻 Author</h2>
+<h2> Author</h2>
 
 <p>
 <b>Dipanshu Dhawade</b><br>
 Computer Science Engineering Student
 </p>
 
-<p align="center">⭐ If you like this project, give it a star!</p>
