@@ -94,7 +94,7 @@ GET /api/access-report
 <h3>Example Request:</h3>
 
 <pre>
-http://localhost:8081/api/access-report
+http://localhost:8081/api/access-report?org=(Name of Org) 
 </pre>
 
 <h3>Example Response:</h3>
